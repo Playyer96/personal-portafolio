@@ -2,19 +2,20 @@ import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
-import "../styles/Home.css"
+import "../styles/Home.css";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, I'm Danilo</h2>
+        <h2>Hi, I'm Dani</h2>
         <div className="prompt">
           <p>Unreal And Unity developer with a passion to learn new stuff</p>
           <LinkedInIcon />
           <GithubIcon />
           <EmailIcon />
         </div>
+        <button>About Me!</button>
       </div>
       <div className="skills">
         <h1>Skills</h1>

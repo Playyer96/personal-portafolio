@@ -10,10 +10,17 @@ function Footer() {
     <div className="footer">
       <div>
         <div className="socialMedia">
-          <InstagramIcon />
+          <InstagramIcon
+            onClick={() =>
+              window.open("https://www.instagram.com/_dani.svs/", "_blank")
+            }
+          />
           <Twitter />
-          <FacebookIcon />
-          <LinkedInIcon />
+          <LinkedInIcon
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/danisvs/", "_blank")
+            }
+          />
         </div>
       </div>
       <p>&copy; 2022 Dani.com</p>
