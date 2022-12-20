@@ -37,12 +37,8 @@ const Home = () => {
               window.open("https://www.linkedin.com/in/danisvs/", "_blank")
             }
           />
-          <GithubIcon onClick={() => window.open("", "_blank")} />
-          <EmailIcon
-            onClick={(e) => {
-              window.location = "mailto:vanegasdanilo7@gmail.com";
-            }}
-          />
+          <GithubIcon onClick={() => window.open("https://github.com/Playyer96", "_blank")} />
+          <EmailIcon />
         </div>
         <button>About Me!</button>
       </div>
