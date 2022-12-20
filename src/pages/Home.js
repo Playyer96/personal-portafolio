@@ -1,12 +1,11 @@
 import React, { Fragment } from "react";
+import { useNavigate } from "react-router-dom";
 import _ from "lodash";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
 import ContactIcons from "../components/ContactIcons";
 import "../styles/Home.css";
 
 const Home = () => {
+  const navigate = useNavigate();
   const skills = _.uniq([
     "Unity",
     "Unreal",
@@ -33,9 +32,9 @@ const Home = () => {
         <h2>Hi, I'm Dani</h2>
         <div className="prompt">
           <p>Unreal And Unity developer with a passion to learn new stuff</p>
-          <ContactIcons/>
+          <ContactIcons />
         </div>
-        <button>About Me!</button>
+        <button onClick={() => navigate("/about")}>About Me!</button>
       </div>
       <div className="skills">
         <h1>Skills</h1>
