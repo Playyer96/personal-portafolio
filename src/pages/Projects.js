@@ -7,7 +7,6 @@ import "../styles/Projects.css";
 function Projects() {
   return (
     <div className="projects">
-      <h1>Projects</h1>
       <div className="projectList">
         {ProjectList.map((project, index) => {
           return (

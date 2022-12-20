@@ -1,14 +1,17 @@
-import React from "react";
+import React, { Fragment, useMemo } from "react";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import Twitter from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../styles/Footer.css";
 
-function Footer() {
+const Footer = () => {
+  const currentYear = useMemo(() => new Date().getFullYear(), []);
+
   return (
-    <div className="footer">
-      <div>
+    <Fragment>
+      <footer className="footer">
+        <p>Copyright Dani.com &copy; {currentYear}</p>
+
         <div className="socialMedia">
           <InstagramIcon
             onClick={() =>
@@ -22,10 +25,9 @@ function Footer() {
             }
           />
         </div>
-      </div>
-      <p>&copy; 2022 Dani.com</p>
-    </div>
+      </footer>
+    </Fragment>
   );
-}
+};
 
 export default Footer;
