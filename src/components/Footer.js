@@ -1,7 +1,5 @@
 import React, { Fragment, useMemo } from "react";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import Twitter from "@material-ui/icons/Twitter";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import ContactIcons from "./ContactIcons";
 import "../styles/Footer.css";
 
 const Footer = () => {
@@ -12,19 +10,7 @@ const Footer = () => {
       <footer className="footer">
         <p>Copyright Dani.com &copy; {currentYear}</p>
 
-        <div className="socialMedia">
-          <InstagramIcon
-            onClick={() =>
-              window.open("https://www.instagram.com/_dani.svs/", "_blank")
-            }
-          />
-          <Twitter />
-          <LinkedInIcon
-            onClick={() =>
-              window.open("https://www.linkedin.com/in/danisvs/", "_blank")
-            }
-          />
-        </div>
+        <ContactIcons />
       </footer>
     </Fragment>
   );

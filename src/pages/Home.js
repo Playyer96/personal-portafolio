@@ -3,6 +3,7 @@ import _ from "lodash";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
+import ContactIcons from "../components/ContactIcons";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -32,13 +33,7 @@ const Home = () => {
         <h2>Hi, I'm Dani</h2>
         <div className="prompt">
           <p>Unreal And Unity developer with a passion to learn new stuff</p>
-          <LinkedInIcon
-            onClick={() =>
-              window.open("https://www.linkedin.com/in/danisvs/", "_blank")
-            }
-          />
-          <GithubIcon onClick={() => window.open("https://github.com/Playyer96", "_blank")} />
-          <EmailIcon />
+          <ContactIcons/>
         </div>
         <button>About Me!</button>
       </div>
