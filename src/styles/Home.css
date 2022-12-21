@@ -1,13 +1,12 @@
 .home {
   width: 100%;
   align-items: center;
-  font-family: "Arial", sans-serif;
   color: #f9004d;
 }
 
 .aboutme {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,27 +57,43 @@
   color: #191919;
 }
 
+.prompt button {
+  margin-bottom: 30px;
+}
+
 @media only screen and (max-width: 600px) {
+  .aboutme .prompt {
+    display: flex;
+    flex-direction: column;
+  }
+
   .aboutme {
-    flex-direction: column; /* stack the elements vertically */
+    display: flex;
+    flex-direction: column;
+    position: relative;
   }
+
   .prompt {
-    width: 100%; /* make the prompt container full width */
+    width: 100%;
   }
+
   .skills {
-    width: 100%; /* make the skills container full width */
+    width: 100%;
   }
 
   .aboutme h2 {
-    font-size: 40px; /* reduce the font size of the heading */
+    font-size: 40px;
   }
+
   .aboutme .prompt {
-    font-size: 20px; /* reduce the font size of the paragraph */
+    font-size: 20px;
   }
+
   .skills h1 {
-    font-size: 30px; /* reduce the font size of the skills heading */
+    font-size: 30px;
   }
+
   .skills .list {
-    font-size: 20px; /* reduce the font size of the skills list */
+    font-size: 20px;
   }
 }

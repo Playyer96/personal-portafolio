@@ -33,8 +33,8 @@ const Home = () => {
         <div className="prompt">
           <p>Unreal And Unity developer with a passion to learn new stuff</p>
           <ContactIcons />
+          <button onClick={() => navigate("/about")}>About Me!</button>
         </div>
-        <button onClick={() => navigate("/about")}>About Me!</button>
       </div>
       <div className="skills">
         <h1>Skills</h1>
