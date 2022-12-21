@@ -5,7 +5,7 @@
   color: #f9004d;
 }
 
-.about {
+.aboutme {
   width: 100%;
   height: calc(100vh - 100px);
   display: flex;
@@ -17,14 +17,14 @@
   color: #f0f0f0;
 }
 
-.about h2 {
+.aboutme h2 {
   font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
   color: #f9004d;
   height: 50px;
 }
 
-.about .prompt {
+.aboutme .prompt {
   width: 40%;
   font-size: 30px;
 }
