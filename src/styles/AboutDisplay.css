@@ -1,19 +1,4 @@
-.about img {
-  height: auto;
-  width: 420px;
-  max-width: 100%;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-}
-
-.about-text {
-  width: 550px;
-  max-width: 100%;
-  padding: 0 10px;
-}
-
 .main {
-  /* height: 1000%; */
   background-color: #191919;
 }
 
@@ -27,6 +12,19 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+}
+.about img {
+  height: auto;
+  width: 420px;
+  max-width: 100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.about-text {
+  width: 550px;
+  max-width: 100%;
+  padding: 0 10px;
 }
 
 .about h1 {
@@ -69,4 +67,26 @@ button:hover {
   background: transparent;
   border: 2px solid #f9004d;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    flex-direction: column; /* stack the elements vertically */
+  }
+  .about img {
+    width: 100%; /* make the image full width */
+  }
+  .about-text {
+    width: 100%; /* make the text container full width */
+  }
+
+  .about h1 {
+    font-size: 60px; /* reduce the font size of the heading */
+  }
+  .about h5 {
+    font-size: 20px; /* reduce the font size of the subheading */
+  }
+  .about-text p {
+    font-size: 16px; /* reduce the font size of the paragraph */
+  }
 }
