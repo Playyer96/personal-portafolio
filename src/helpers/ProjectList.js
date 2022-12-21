@@ -1,16 +1,20 @@
-import TestImg from "../assets/HiRes-17.jpg";
+import RoadSafetyThumbnail from "../assets/Road-Safety_Enviroment.png";
+import SofasaThumbnail from "../assets/Sofasa_TakingPhotoMechanic.png";
+import WorldVsThumbnail from "../assets/WorldVS_Menu.png";
+import GlobalSickJamThumbnail from "../assets/Global-Sick-Jam_SplashScreen.png";
+import SamsongThumbnail from "../assets/Samsong_1_1.png";
 
 export const ProjectList = [
   {
     name: "Road Safety",
-    image: TestImg,
+    image: RoadSafetyThumbnail,
     description:
       "Virtual reality simulator that puts the player in an environment with a high accident rate to evaluate whether or not they meet road regulations. The built city recreates scenarios such as: run over in a school zone, not respecting a traffic light or stop and other specific cases for motorcycles and cars such as overtaking vehicles and zigzagging.",
     responsabilities: "",
   },
   {
     name: "Sofasa Logistica",
-    image: TestImg,
+    image: SofasaThumbnail,
     description:
       "Training simulators for Renault warehouse which is helping the company warehouse, improve the training sessions helping the employees learn faster get faster without interrupting the real environment.",
     responsabilities:
@@ -18,13 +22,13 @@ export const ProjectList = [
   },
   {
     name: "World VS",
-    image: TestImg,
+    image: WorldVsThumbnail,
     description:
       "Fight for the honor of their universe. its a fight where the main characters from my classmates games fight each other and a textureless cube, because why not?",
   },
   {
     name: "Global Sick Jam",
-    image: TestImg,
+    image: GlobalSickJamThumbnail,
     description:
       "This game was made in the global game jam 2018, which consists in transmitting diseases among the attendees of the GGJ event at the UPB Coliseum.",
     responsabilities:
@@ -32,7 +36,7 @@ export const ProjectList = [
   },
   {
     name: "Samsong",
-    image: TestImg,
+    image: SamsongThumbnail,
     description:
       "Samsong the barbarian, must protect his cave from countless bats using the best weapon possible, his electric triangle.Game created in the Global Game jam 2017 Winner of the <b>best use of Hardware Global Game Jam 2017<b> (U.P.B, Medellín, Colombia).",
     responsabilities:
