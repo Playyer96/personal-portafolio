@@ -59,25 +59,26 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .about h2 {
-    font-size: 40px;
+  .aboutme {
+    flex-direction: column; /* stack the elements vertically */
   }
-
-  .about .prompt {
-    margin-top: 10px;
-    font-size: 20px;
-    width: 80%;
+  .prompt {
+    width: 100%; /* make the prompt container full width */
   }
-
   .skills {
-    text-align: center;
+    width: 100%; /* make the skills container full width */
   }
 
-  .list {
-    padding: 0;
+  .aboutme h2 {
+    font-size: 40px; /* reduce the font size of the heading */
   }
-
-  .skills h2 {
-    font-size: 30px;
+  .aboutme .prompt {
+    font-size: 20px; /* reduce the font size of the paragraph */
+  }
+  .skills h1 {
+    font-size: 30px; /* reduce the font size of the skills heading */
+  }
+  .skills .list {
+    font-size: 20px; /* reduce the font size of the skills list */
   }
 }
