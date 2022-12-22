@@ -1,7 +1,7 @@
 import React from "react";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import Twitter from "@material-ui/icons/Twitter";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "../styles/ContactIcons.css";
 
 function ContactIcons() {
@@ -12,7 +12,7 @@ function ContactIcons() {
           window.open("https://www.instagram.com/_dani.svs/", "_blank")
         }
       />
-      <Twitter />
+      <TwitterIcon />
       <LinkedInIcon
         onClick={() =>
           window.open("https://www.linkedin.com/in/danisvs/", "_blank")
