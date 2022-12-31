@@ -10,6 +10,7 @@ import SamsongThumbnail from "../assets/Samsong_1_1.png";
 export const ProjectList = [
   {
     name: "Road Safety",
+    image: RoadSafetyThumbnail,
     images: [
       { id: "1", image: RoadSafetyThumbnail },
       { id: "2", image: RoadSafetyBikePlatform },
@@ -23,6 +24,7 @@ export const ProjectList = [
   {
     name: "Sofasa Logistica",
     image: SofasaThumbnail,
+    images: [{ id: "1", image: SofasaThumbnail }],
     description:
       "Training simulators for Renault warehouse which is helping the company warehouse, improve the training sessions helping the employees learn faster get faster without interrupting the real environment.",
     responsabilities:
@@ -31,12 +33,14 @@ export const ProjectList = [
   {
     name: "World VS",
     image: WorldVsThumbnail,
+    images: [{ id: "1", image: WorldVsThumbnail }],
     description:
       "Fight for the honor of their universe. its a fight where the main characters from my classmates games fight each other and a textureless cube, because why not?",
   },
   {
     name: "Global Sick Jam",
     image: GlobalSickJamThumbnail,
+    images: [{ id: "1", image: GlobalSickJamThumbnail }],
     description:
       "This game was made in the global game jam 2018, which consists in transmitting diseases among the attendees of the GGJ event at the UPB Coliseum.",
     responsabilities:
@@ -45,6 +49,7 @@ export const ProjectList = [
   {
     name: "Samsong",
     image: SamsongThumbnail,
+    images: [{ id: "1", image: SamsongThumbnail }],
     description:
       "Samsong the barbarian, must protect his cave from countless bats using the best weapon possible, his electric triangle.Game created in the Global Game jam 2017 Winner of the <b>best use of Hardware Global Game Jam 2017<b> (U.P.B, Medellín, Colombia).",
     responsabilities:
