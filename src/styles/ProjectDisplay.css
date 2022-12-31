@@ -1,4 +1,15 @@
 .project {
+  background-color: #191919;
+}
+
+.project-info {
+  width: 80%;
+  margin: auto;
+  display: block;
+  text-align: justify;
+}
+
+.project {
   width: 100%;
   height: calc(100vh -100px);
   display: flex;
@@ -8,9 +19,9 @@
 }
 
 .project h1 {
-  margin-top: 50px;
+  margin-top: 5px;
   color: #f9004d;
-  font-size: 35px;
+  font-size: 85px;
 }
 
 .project img {
@@ -18,14 +29,20 @@
   border-radius: 10px;
 }
 
+.project h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #f9004d;
+}
+
 .project p {
-  font-size: 40px;
-  color: #191919;
+  /* font-size: 30px; */
+  color: white;
 }
 
 .project svg {
   font-size: 60px;
-  color: #191919;
+  color: white;
   margin-bottom: 40px;
 }
 
