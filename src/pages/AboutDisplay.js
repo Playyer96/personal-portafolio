@@ -8,7 +8,7 @@ function AboutDisplay() {
       <div className="about">
         <img src={profilePic} />
         <div className="about-text">
-          <h1> Hi I'm Dani</h1>
+          <h1> Hi I'm <span>Dani</span></h1>
           <h5>
             Unity & Unreal <span>Software Developer</span>
           </h5>
@@ -22,7 +22,7 @@ function AboutDisplay() {
             Object-Oriented Programming (OOP), Computer Graphics, and Agile
             Methodologies.
           </p>
-          <button>Let's Talk</button>
+          {/* <button>Let's Talk</button> */}
         </div>
       </div>
     </div>
