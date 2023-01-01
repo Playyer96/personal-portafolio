@@ -38,6 +38,7 @@
 .project p {
   /* font-size: 30px; */
   color: white;
+  text-align: justify;
 }
 
 .project svg {

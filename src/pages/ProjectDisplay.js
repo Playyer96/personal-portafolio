@@ -15,9 +15,17 @@ function ProjectDisplay() {
       <ImageSlider cards={project.images} />
       <div className="project-info">
         <h2>Description:</h2>
-        <p className="description">{project.description}</p>
+        {project.descriptions.map((item, index) => (
+          <p key={index} className="item">
+            {item}
+          </p>
+        ))}
         <h2>Responsabilities:</h2>
-        <p className="responsabilities">{project.responsabilities}</p>
+        {project.responsabilities.map((item, index) => (
+          <p key={index} className="item">
+            {item}
+          </p>
+        ))}
         <GitHubIcon />
       </div>
     </div>

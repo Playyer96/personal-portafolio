@@ -8,9 +8,8 @@ const Footer = () => {
   return (
     <Fragment>
       <footer className="footer">
-        <p>Copyright Dani.com &copy; {currentYear}</p>
-
         <ContactIcons />
+        <p>Copyright Dani.com &copy; {currentYear}</p>
       </footer>
     </Fragment>
   );

@@ -29,9 +29,11 @@ export const ProjectList = [
       { id: "3", image: RoadSafetyCarPlatform },
       { id: "4", image: RoadSafetyEnvironment },
     ],
-    description:
-      "Virtual reality simulator that puts the player in an environment with a high accident rate to evaluate whether or not they meet road regulations. The built city recreates scenarios such as: run over in a school zone, not respecting a traffic light or stop and other specific cases for motorcycles and cars such as overtaking vehicles and zigzagging.",
-    responsabilities: "",
+    descriptions: [
+      "Virtual reality simulator that puts the player in an environment with a high accident rate to evaluate whether or not they meet road regulations.\n",
+      "The built city recreates scenarios such as: run over in a school zone, not respecting a traffic light or stop and other specific cases for motorcycles and cars such as overtaking vehicles and zigzagging.\n",
+    ],
+    responsabilities: ["sadas", "sas"],
   },
   {
     name: "Sofasa Logistica",
@@ -43,10 +45,12 @@ export const ProjectList = [
       { id: "4", image: SofasaTeleportMechanic },
       { id: "5", image: SofasaTrainingMode },
     ],
-    description:
+    descriptions: [
       "Training simulators for Renault warehouse which is helping the company warehouse, improve the training sessions helping the employees learn faster get faster without interrupting the real environment.",
-    responsabilities:
+    ],
+    responsabilities: [
       "The architecture of the simulator, the development of the mechanics and fits them to the Hi5Gloves and HTC Viva controls.",
+    ],
   },
   {
     name: "World VS",
@@ -57,8 +61,9 @@ export const ProjectList = [
       { id: "3", image: WorldVSCharacters },
       { id: "4", image: WorldVsInGame },
     ],
-    description:
+    descriptions: [
       "Fight for the honor of their universe. its a fight where the main characters from my classmates games fight each other and a textureless cube, because why not?",
+    ],
   },
   {
     name: "Global Sick Jam",
@@ -69,10 +74,12 @@ export const ProjectList = [
       { id: "3", image: GlobalSickJamInGame },
       { id: "4", image: GlobalSickJamEnd },
     ],
-    description:
-      "This game was made in the global game jam 2018, which consists in transmitting diseases among the attendees of the GGJ event at the UPB Coliseum.",
-    responsabilities:
+    descriptions: [
+      "This game was made in the global game jam 2018, which consists in transmitting diseases among the attendees of the GGJ event at the UPB Coliseum. Fighting game for 2-4 players. Multiple controllers support.",
+    ],
+    responsabilities: [
       "Program some interactions on the map,Help in the programming of canvas UI, Support in the programming part of the main character's movement.",
+    ],
   },
   {
     name: "Samsong",
@@ -82,9 +89,11 @@ export const ProjectList = [
       { id: "2", image: SamsongAttack },
       { id: "3", image: SamsongDeath },
     ],
-    description:
-      "Samsong the barbarian, must protect his cave from countless bats using the best weapon possible, his electric triangle.Game created in the Global Game jam 2017 Winner of the <b>best use of Hardware Global Game Jam 2017<b> (U.P.B, Medellín, Colombia).",
-    responsabilities:
+    descriptions: [
+      "Samsong the barbarian, must protect his cave from countless bats using the best weapon possible, his electric triangle.Game created in the Global Game jam 2017 Winner of the best use of Hardware Global Game Jam 2017 (U.P.B, Medellín, Colombia).",
+    ],
+    responsabilities: [
       "Programed the spawn of bats and musical notes, Worked with state machine for the animations, Recreate the enemies behaviours, Assisted the creation of controllers with sensors.",
+    ],
   },
 ];
