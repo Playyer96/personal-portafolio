@@ -26,7 +26,7 @@ function ProjectDisplay() {
             {item}
           </p>
         ))}
-        <GitHubIcon />
+        {/* <GitHubIcon /> */}
       </div>
     </div>
   );
