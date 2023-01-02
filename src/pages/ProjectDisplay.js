@@ -11,8 +11,10 @@ function ProjectDisplay() {
 
   return (
     <div className="project">
-      <h1>{project.name}</h1>
-      {/* <ImageSlider cards={project.images} /> */}
+      <div>
+        <h1>{project.name}</h1>
+        <ImageSlider cards={project.images} />
+      </div>
       <div className="project-info">
         <h2>Description:</h2>
         {project.descriptions.map((item, index) => (
