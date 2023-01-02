@@ -12,6 +12,9 @@
 body {
   padding: 0;
   margin: 0;
+  position: relative;
+  padding-bottom: 120px;
+  min-height: 100vh;
 }
 
 button {
@@ -32,25 +35,29 @@ button:hover {
 }
 
 tool-tip {
-  position: relative;
+  background-color: #191919;
+  color: white;
+  border-color: #f0f0f0;
+  position: absolute;
   z-index: 1;
   pointer-events: none;
   user-select: none;
 
-  box-shadow: 0 0 10px #191919;
+  box-shadow: 0 0 2px #191919;
   padding: 5px 10px;
   font-size: 16px;
   border-radius: 8px;
 
-  top: 30%;
+  /* top: 30%; */
+  left: 50%;
+  transform: translate(-50%, -25%);
 
   justify-content: center;
-
-  align-items: center;
 
   opacity: 0;
   transition: opacity 0.3s ease;
   margin-top: 20px;
+  text-align: center;
 }
 
 :has(> tool-tip) {

@@ -38,15 +38,6 @@
   color: white;
 }
 
-.skills {
-  font-size: 35px;
-  width: 100%;
-  /* display: flex; */
-  justify-content: center;
-  /* flex-direction: column; */
-  align-items: center;
-}
-
 .skills h1 {
   color: #f9004d;
 }
@@ -55,7 +46,7 @@
   margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .aboutme .prompt {
     display: flex;
     flex-direction: column;
@@ -89,34 +80,23 @@
   }
 }
 
-.skill-header {
-  /* margin-bottom: 1rem; */
+.skills-section h2 {
+  font-size: 80px;
+  color: #191919;
+  text-align: center;
 }
-
-.skills-wrapper {
-  display: grid;
-  gap: 50px 100px;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.icon {
-  max-width: 128px;
-  max-height: 128px;
-  width: auto;
+.skills {
+  width: 100%;
   height: auto;
+  display: flex;
+  margin-bottom: 45px;
   align-items: center;
   justify-content: center;
-  vertical-align: middle;
-  margin: auto;
 }
 
-.icon-card {
-  width: 128px;
-  height: 128px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
-  padding: 20px;
-  margin: 10px;
+.skillList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }

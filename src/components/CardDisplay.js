@@ -1,9 +1,11 @@
 import React from "react";
+import "../styles/CardDisplay.css";
 
 function CardDisplay({ image, tooltip }) {
   return (
-    <div className="projectItem">
-      <img src={image} className="bgImage" alt="" />
+    <div className="skillItem">
+      <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
+      {/* <img src={image} className="bgImage" alt="" /> */}
       <tool-tip role="tooltip">{tooltip}</tool-tip>
     </div>
   );

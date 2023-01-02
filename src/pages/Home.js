@@ -34,11 +34,11 @@ const Home = () => {
           <button onClick={() => navigate("/about")}>About Me!</button>
         </div>
       </div>
-      <div class="skills" id="skills">
-        <h2 class="skill-header">Skills</h2>
+      <div class="skills-section">
+        <h2>Skills</h2>
 
-        <div className="projects">
-          <div className="projectList">
+        <div className="skills">
+          <div className="skillList">
             {SkillsList.map((skill, index) => {
               return (
                 <CardDisplay

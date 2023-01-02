@@ -10,8 +10,8 @@ function ProjectItem({ image, name, id }) {
         navigate("/project/" + id);
       }}
     >
-      {/* <div style={{ backgroundImage: `url(${image})` }} className="bgImage" /> */}
-      <img src={image} className="bgImage" alt="" />
+      <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
+      {/* <img src={image} className="bgImage" alt="" /> */}
       <h1>{name}</h1>
     </div>
   );
