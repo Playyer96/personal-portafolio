@@ -9,7 +9,7 @@ import "../styles/ContactIcons.css";
 function ContactIcons() {
   return (
     <div className="socialMedia">
-      <a href="mailto:hello@kemiadeleke.com" target="_blank" rel="noreferrer">
+      <a href="mailto:vanegasdanilo7@gmail.com" target="_blank" rel="noreferrer">
         <EmailIcon />
       </a>
       <a
