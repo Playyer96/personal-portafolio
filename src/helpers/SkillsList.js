@@ -5,19 +5,19 @@ import CPlusPlusIcon from "../assets/technologies-logos/CPlusPlus.png";
 
 export const SkillsList = [
   {
-    name: "Unreal Engine",
+    text: "Unreal Engine",
     icon: UnrealIcon,
   },
   {
-    name: "Unity Engine",
+    text: "Unity Engine",
     icon: UnityIcon,
   },
   {
-    name: "CSharp",
+    text: "CSharp",
     icon: CSharpIcon,
   },
   {
-    name: "CPlusPlus",
+    text: "CPlusPlus",
     icon: CPlusPlusIcon,
   },
 ];

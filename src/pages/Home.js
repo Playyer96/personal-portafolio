@@ -40,7 +40,13 @@ const Home = () => {
         <div className="projects">
           <div className="projectList">
             {SkillsList.map((skill, index) => {
-              return <CardDisplay key={index} image={skill.icon} />;
+              return (
+                <CardDisplay
+                  key={index}
+                  image={skill.icon}
+                  tooltip={skill.text}
+                />
+              );
             })}
           </div>
         </div>
