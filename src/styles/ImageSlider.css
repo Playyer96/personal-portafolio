@@ -43,3 +43,25 @@
   transition: 500ms;
   opacity: 0.3;
 }
+
+@media only screen and (max-width: 400px) {
+
+  .image-slider {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+  }
+
+  .card {
+    width: 80%;
+    height: auto;
+    height: 100%;
+    /* top: auto; */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card:nth-of-type(3) {
+    display: none;
+  }
+}
