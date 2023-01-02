@@ -21,37 +21,3 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
-
-@media only screen and (max-width: 1300px) {
-  .skillList {
-    width: 100%;
-    flex-direction: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .skillItem {
-    align-items: center;
-    justify-content: center;
-
-    max-width: 200px;
-    max-height: 200px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .skillList {
-    width: 100%;
-    flex-direction: grid;
-    grid-template-columns: 1fr;
-    position: relative;
-  }
-
-  .skillItem {
-    align-items: center;
-    justify-content: center;
-    max-width: 150px;
-    max-height: 150px;
-  }
-}

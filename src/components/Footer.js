@@ -8,10 +8,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>Copyright Dani.com &copy; {currentYear}</p>
-      {/* <div className="connect-section"> */}
-        {/* <h3>Connect:</h3> */}
         <ContactIcons />
-      {/* </div> */}
     </footer>
   );
 };

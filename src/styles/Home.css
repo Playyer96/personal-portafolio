@@ -56,7 +56,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 100%;
+    height: auto;
   }
 
   .prompt {
@@ -68,11 +68,11 @@
   }
 
   .aboutme h2 {
-    font-size: 40px;
+    font-size: 28px;
   }
 
   .aboutme .prompt {
-    font-size: 20px;
+    font-size: 26px;
   }
 
   .skills h1 {
@@ -85,18 +85,19 @@
   color: #191919;
   text-align: center;
 }
+
 .skills {
   width: 100%;
   height: auto;
   display: flex;
-  margin-bottom: 45px;
+  margin-bottom: 65px;
   align-items: center;
   justify-content: center;
 }
 
 .skillList {
-  width: 70vw;
-  height: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
