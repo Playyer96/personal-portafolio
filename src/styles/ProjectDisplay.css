@@ -7,7 +7,6 @@
   margin: auto;
   display: block;
   text-align: justify;
-  margin-bottom: 20px;
 }
 
 .project {
@@ -57,26 +56,5 @@
   }
   .project svg {
     font-size: 40px;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .project {
-    flex-direction: column;
-  }
-  .project-info {
-    width: 100%;
-  }
-
-  .project img {
-    /* display: none; */
-  }
-  .project h1 {
-    margin-top: 0;
-    font-size: 35px;
-  }
-
-  .project p {
-    font-size: 16px;
   }
 }
