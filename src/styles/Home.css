@@ -41,24 +41,14 @@
 .skills {
   font-size: 35px;
   width: 100%;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
 }
 
 .skills h1 {
   color: #f9004d;
-}
-
-.skills .list {
-  list-style: none;
-  width: 60%;
-}
-
-.list span {
-  font-size: 20px;
-  color: #191919;
 }
 
 .prompt button {
@@ -97,8 +87,36 @@
   .skills h1 {
     font-size: 30px;
   }
+}
 
-  .skills .list {
-    font-size: 20px;
-  }
+.skill-header {
+  /* margin-bottom: 1rem; */
+}
+
+.skills-wrapper {
+  display: grid;
+  gap: 50px 100px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.icon {
+  max-width: 128px;
+  max-height: 128px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.icon-card {
+  width: 128px;
+  height: 128px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
 }
